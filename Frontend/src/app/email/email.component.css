@@ -3,9 +3,9 @@
  min-height: 200px;
  margin: 80px auto;
  padding: 40px 30px 30px 30px;
- background-color: #ecf0f3;
+ background-color: #2173b2;
  border-radius: 15px;
- box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+ box-shadow: 13px 13px 20px #3d3f41, -13px -13px 20px rgba(249, 247, 247, 0.79);
 }
 
 
@@ -14,7 +14,7 @@
  font-size: 1.4rem;
  letter-spacing: 1.3px;
  padding-left: 10px;
- color: #555;
+ color: rgb(249, 245, 245);
 }
 
 .wrapper .form-field input {
@@ -24,7 +24,7 @@
  outline: none;
  background:none;
  font-size: 0.85rem;
- color: #666;
+ color: rgb(252, 249, 249);
  padding: 10px 15px 10px 10px;
 }
 
@@ -32,11 +32,11 @@
  padding-left: 10px;
  margin-bottom: 20px;
  border-radius: 20px;
- box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+ box-shadow: inset 8px 8px 8px #444546, inset -8px -8px 8px rgb(60, 55, 55);
 }
 
 .wrapper .form-field .fas {
- color: #555;
+ color: rgb(238, 231, 231);
 }
 
 .wrapper .btn {

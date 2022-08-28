@@ -30,7 +30,7 @@ app.post('/api/email',(req,res)=>{
    service: 'gmail',
    auth: {
        user: 'teamsevenictak@gmail.com',
-       pass: 'Team@7ictak'
+       pass: 'crxdtwelnzumcerb'
    }
 });
 
