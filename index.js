@@ -29,13 +29,13 @@ app.post('/api/email',(req,res)=>{
   var transporter = nodemailer.createTransport({
    service: 'gmail',
    auth: {
-       user: 'diwaliwishestoyou@gmail.com',
-       pass: 'ppplcytemtgtagtq'
+       user: 'teamsevenictak@gmail.com',
+       pass: 'Team@7ictak'
    }
 });
 
 var mailOptions = {
-   from: 'diwaliwishestoyou@gmail.com',
+   from: 'teamsevenictak@gmail.com',
    to: data.email,
    subject: 'OTP',
    text: `OTP is ${data.otp}`
